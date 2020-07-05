@@ -5,6 +5,7 @@ RUN apt-get update \
     && apt-get upgrade -y \
     && apt install -y \
     sudo \
+    docker \
     libltdl-dev \
     python3-pip \
     python3-setuptools \
