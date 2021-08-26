@@ -10,14 +10,13 @@ RUN apt-get update \
     gnupg-agent \
     golang \
     libltdl-dev \
-    python-wheel \
-    python-wheel-common \
-    python3-pip \
-    python3-setuptools \
     software-properties-common \
     sudo \
     unzip \
     zip \
+    python-wheel-common \
+    python3-pip \
+    python3-setuptools \
     && \
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add - \
     && \
